@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    text-align: center;
+    background-color: burlywood;
+}
+
+h1 {
+    color: blue;
+}
+
+blockquote {
+    background-color: gold;
+}
+
+#soekarno {
+    font-weight: bold;
+}
+
+.blabla {
+    margin-left: 40%;
+    display: inline-block;
+}
+
+.blabla ul,
+li {
+    float: left;
+    padding: 5px;
+    list-style: none;
+    font-weight: 800;
+}
+
+.gambar {
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gambar img {
+    box-shadow: 5px 0 5px black;
+    padding-left: 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#img1 {
+    width: 400px;
+}
+
+#img2 {
+    width: 370px;
+}
+
+.isi {
+    text-align: justify;
+}
+
+.bb {
+    color: blue;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+.jawa {
+    font-weight: bold;
+}
+
+i {
+    color: blue;
+}
+
+#profil {
+    text-align: justify;
+}
+
+#profil h3 {
+    color: blue;
+    font-size: x-large;
+}
+
+#berternak {
+    text-align: justify;
+}
+
+#berternak h3 {
+    color: blue;
+}
+
+.koleksi {
+    background-color: chocolate;
+    margin-top: 650px;
+}
+
+.koleksi img {
+    width: 23%;
+    padding-left: 20px;
+    box-shadow: 3px 3px 3px 3px black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.promo {
+    color: crimson;
+    text-align: center;
+}
+
+.promo h3 {
+    color: blueviolet;
+}
+
+.promo h3 del {
+    color: red;
+}
+
+.promo h3 strong {
+    color: red;
+}
+
+.promo ol {
+    margin-left: 37%;
+}
+
+.promo ol li {
+    padding: 10px;
+}
+
+.link {
+    color: darkgreen;
+}
+
+.link:active {
+    color: green;
+}
+
+.link2 {
+    color: purple;
+}
+
+.link2:active {
+    color: green;
+}
+
+.link3 {
+    color: orangered;
+}
+
+.link3:active {
+    color: green;
+}
