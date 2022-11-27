@@ -1,0 +1,27 @@
+header {
+    margin: -10px;
+    background-color: #CFF5E7;
+}
+
+header ul {
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    align-items: center;
+    font-size: xx-large;
+}
+
+header ul li {
+    margin: 0 2rem;
+}
+
+.logo {
+    width: 8rem;
+    margin-right: auto;
+}
+
+h3 {
+    font-weight: 900;
+}
