@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Packer</title>
+    <style>
+        body {
+            background-color: #F3CCFF;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        .container {
+            display: flex;
+            margin: 50px 350px;
+            width: 500px;
+            height: 300px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            width: 500px;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        #option {
+            color: white;
+            background-color: blue;
+        }
+    </style>
+
+    <script>
+        function dekor1() {
+            dekor_1 = document.getElementById("home");
+            dekor_1.style.color = "darkblue";
+        }
+
+        function dekor2() {
+            dekor_2 = document.getElementById("home");
+            dekor_2.style.color = "black";
+        }
+
+        function imagepicker() {
+            const list_image = ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg"]
+            let pilihan = document.getElementById("option");
+
+            if (pilihan.value == "img1") {
+                let select = list_image[0];
+                document.getElementById("image").src = `images/${select}`
+                alert("Ini gambar 1")
+            }
+
+            if (pilihan.value == "img2") {
+                let select = list_image[1];
+                document.getElementById("image").src = `images/${select}`
+                alert("Ini gambar 2")
+            }
+
+            if (pilihan.value == "img3") {
+                let select = list_image[2];
+                document.getElementById("image").src = `images/${select}`
+                alert("Ini gambar 3")
+            }
+
+            if (pilihan.value == "img4") {
+                let select = list_image[3];
+                document.getElementById("image").src = `images/${select}`
+                alert("Ini gambar 4")
+            }
+
+            if (pilihan.value == "img5") {
+                let select = list_image[4];
+                document.getElementById("image").src = `images/${select}`
+                alert("Ini gambar 5")
+            }
+
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <a href="" onmouseover="dekor1()" onmouseout="dekor2()" id="home">
+        <h1>Welcome to My Gallery</h1>
+    </a>
+    <hr>
+    <br>
+    <select id="option" onchange="imagepicker()">
+        <option value="" selected>Choise Images</option>
+        <option value="img1">Image 1</option>
+        <option value="img2">Image 2</option>
+        <option value="img3">Image 3</option>
+        <option value="img4">Image 4</option>
+        <option value="img5">Image 5</option>
+    </select>
+    <br>
+    <div class="container" id="container">
+        <div class="box" id="box">
+            <img id="image">
+        </div>
+    </div>
+
+</body>
+
+</html>

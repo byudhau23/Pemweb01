@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-size: x-large;
+    background-color: pink;
+}
+
+.container {
+    height: 55px;
+    margin: 1em 2em 1em 2em;
+    background-color: blueviolet;
+}
+
+.container2 {
+    height: 500px;
+    display: flex;
+}
+
+.container2 aside {
+    width: 40%;
+    margin: 0 1em 1em 2em;
+    background-color: darkolivegreen;
+}
+
+.container2 article {
+    width: 60%;
+    margin: 0 2em 1em 1em;
+    justify-content: center;
+    flex-direction: column;
+    background-color: orangered;
+}
+
+img {
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 200px;
+    border-radius: 10%;
+}
+
+.container3 {
+    height: 55px;
+    margin: 0 2em 1em 2em;
+    background-color: blueviolet;
+}

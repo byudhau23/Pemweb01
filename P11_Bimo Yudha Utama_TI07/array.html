@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array & Object</title>
+    <script>
+        // membuat array fruits
+        let fruits = ["Apel", "Jeruk", "Mangga", "Nanas", "Delima"];
+        console.log();
+
+        // membuat looping for
+        for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+        }
+
+        console.log("");
+
+        fruits.push("Jambu"); // push = untuk menambahkan data array
+        fruits.sort(); // sort = untuk mengurutkan variable A-Z
+        fruits.pop(); // pop = untuk menghapus data array paling terakhir 
+
+        // membuat looping for untuk menampilkan data array
+        for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+        }
+
+        // Object
+        let mobil = {
+            tipe: "R34 Skyline",
+            merk: "Nissan",
+            tahun: 1999,
+            warna: "Blue",
+            jalan: function () {
+                console.log("Stututututu...")
+            },
+        };
+        console.log(mobil.tipe);
+    </script>
+</head>
+
+<body>
+    <h1>Belajar Array</h1>
+</body>
+
+</html>

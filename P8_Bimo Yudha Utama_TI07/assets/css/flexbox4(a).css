@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    border: 1px solid;
+    margin: 0;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+nav {
+    background-color: pink;
+    flex: 1;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    height: 42.5rem;
+    width: 15rem;
+}
+
+header {
+    background-color: gold;
+    padding: 1rem;
+    width: 65rem;
+    height: 6.25rem;
+}
+
+main {
+    display: flex;
+}
+
+main article {
+    background-color: whitesmoke;
+    flex: 3;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main aside {
+    background-color: deepskyblue;
+    flex: 1;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 15rem;
+    height: 26rem;
+
+}
+
+footer {
+    background-color: gold;
+    padding: 1rem;
+    width: 65rem;
+    height: 6.25rem;
+}

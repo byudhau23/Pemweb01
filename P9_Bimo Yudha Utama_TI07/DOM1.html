@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9.1</title>
+</head>
+
+<body>
+    <h1>Menghitung Luas dan Keliling</h1>
+    <span id="pi"></span><span id="jari"></span><span id="luas"></span><span id="keliling"></span>
+
+    <!-- Kode Javasricpt -->
+    <script>
+        const phi = 3.14;
+        let r = 14;
+        let l = phi * (r * r);
+        let k = phi * (2 * r);
+
+        console.log(l);
+        console.log(k);
+        console.log(2 + 1);
+
+        document.getElementById("pi").innerHTML = "phi : " + phi;
+        document.getElementById("jari").innerHTML = "Jari-jari : " + r;
+        document.getElementById("luas").innerHTML = "Luas Lingkaran : " + 1;
+        document.getElementById("keliling").innerHTML = "Keliling Lingkaran:" + k;
+    </script>
+</body>
+
+</html>

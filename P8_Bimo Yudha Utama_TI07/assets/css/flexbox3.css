@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.container,
+.container2 {
+    display: flex;
+}
+
+img {
+    height: 13vw;
+    flex-grow: 1;
+    margin: 1px;
+    padding: 5px;
+}
